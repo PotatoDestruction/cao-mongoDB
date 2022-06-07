@@ -3,7 +3,7 @@ const cors = require("cors")
 const { MongoClient } = require("mongodb")
 require("dotenv").config();
 
-// const URI = "mongodb+srv://Zilvinas:68352891033300@cluster0.wad6cku.mongodb.net/test"
+
 const app = express();
 const port = process.env.PORT;
 const client = new MongoClient(process.env.MONGO_DB_URI)
